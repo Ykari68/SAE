@@ -1,0 +1,92 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&display=swap');
+h1{
+    font-size: 2.5rem;
+    font-weight: 300;
+    font-family: 'Roboto Slab', serif;
+    color:black;
+    background-color:bisque;
+    text-align:center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+body{
+    background-image: url("Images/fond.jpg");
+    background-color: lightblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer{
+    font-size: 1rem;
+    font-weight: 300;
+    font-family: 'Roboto Slab', serif;
+    color:black;
+    background-color:bisque;
+    text-align:center; 
+}
+
+nav{
+    padding: 1em;
+    text-align: center;
+    
+}
+
+a{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-left: 10%;
+    padding-right:10%;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    color:whitesmoke;
+}
+
+a:hover{
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.7);
+    color:whitesmoke;
+    
+}
+
+
+.test{
+    background-color: rgba(255, 228, 196, 0.5);
+    color:black; 
+    display: inline-block;
+}
+
+.lang{
+    text-align: center;
+    background-color: rgba(255, 0, 0, 0.5);
+    padding-left: 1%;
+    padding-right:1%;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    color:whitesmoke;
+}
+
+
+#profil{
+    float: left;
+    width:15%;
+    height:20%;
+}
+.lang:hover{
+    background-color: rgba(255, 0, 0, 0.7);
+}
+
+#main{
+    overflow:scroll;
+    height : 100vh;
+}
+
+.photo{
+    width: 33%;
+    height: 30%;
+    margin-top: 5em;
+}
+#photo{
+    flex-basis: linear;
+}
