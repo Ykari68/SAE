@@ -74,7 +74,9 @@ a:hover{
     color:black; 
     display: inline-block;
     width: 100%;
-    margin-bottom: 5em;
+    margin-bottom: 2.5em;
+    font-size: 1.2em;
+    font-weight: 300;
 }
 
 
@@ -107,6 +109,7 @@ a:hover{
 .photo{
     width: 33%;
     height: 30%;
+    margin-top: 2.5em;
 }
 #photo{
     flex-basis: linear;
