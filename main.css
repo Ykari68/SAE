@@ -1,5 +1,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&display=swap');
+
+html, body {
+    overflow: hidden;
+}
+
 h1{
     font-size: 2.5rem;
     font-weight: 300;
@@ -9,7 +14,20 @@ h1{
     text-align:center;
     margin-top: 0;
     margin-bottom: 0;
+    
 }
+#informatique{
+    font-size: 2.5rem;
+    font-weight: 300;
+    font-family: 'Roboto Slab', serif;
+    color:black;
+    background-color:bisque;
+    text-align:center;
+    margin-top: 2.5em;
+    margin-bottom: 1em;
+
+}
+
 
 body{
     background-image: url("Images/fond.jpg");
@@ -25,12 +43,12 @@ footer{
     color:black;
     background-color:bisque;
     text-align:center; 
+    margin-bottom: 1em;
 }
 
 nav{
     padding: 1em;
-    text-align: center;
-    
+    text-align: center;   
 }
 
 a{
@@ -55,7 +73,10 @@ a:hover{
     background-color: rgba(255, 228, 196, 0.5);
     color:black; 
     display: inline-block;
+    width: 100%;
+    margin-bottom: 5em;
 }
+
 
 .lang{
     text-align: center;
@@ -78,14 +99,14 @@ a:hover{
 }
 
 #main{
-    overflow:scroll;
+    overflow-y:scroll;
+    overflow-x:hidden;
     height : 100vh;
 }
 
 .photo{
     width: 33%;
     height: 30%;
-    margin-top: 5em;
 }
 #photo{
     flex-basis: linear;
