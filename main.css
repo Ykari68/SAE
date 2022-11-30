@@ -16,18 +16,6 @@ h1{
     margin-bottom: 0;
     
 }
-#informatique{
-    font-size: 2.5rem;
-    font-weight: 300;
-    font-family: 'Roboto Slab', serif;
-    color:black;
-    background-color:bisque;
-    text-align:center;
-    margin-top: 2.5em;
-    margin-bottom: 1em;
-
-}
-
 
 body{
     background-image: url("Images/fond.jpg");
@@ -79,6 +67,16 @@ a:hover{
     font-weight: 300;
 }
 
+.screen{
+    background-color: rgba(255, 228, 196, 0.5);
+    color:black; 
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 2.5em;
+    font-size: 1.2em;
+    font-weight: 300;
+    text-align:center;
+}
 
 .lang{
     text-align: center;
@@ -90,20 +88,8 @@ a:hover{
     color:whitesmoke;
 }
 
-
-#profil{
-    float: left;
-    width:15%;
-    height:20%;
-}
 .lang:hover{
     background-color: rgba(255, 0, 0, 0.7);
-}
-
-#main{
-    overflow-y:scroll;
-    overflow-x:hidden;
-    height : 100vh;
 }
 
 .photo{
@@ -111,6 +97,41 @@ a:hover{
     height: 30%;
     margin-top: 2.5em;
 }
+
+
 #photo{
     flex-basis: linear;
+}
+
+#profil{
+    float: left;
+    width:15%;
+    height:20%;
+}
+
+#screen{
+    float: left;
+    width:70%;
+    height:20%;
+    margin-left: 15%;
+    margin-right:15%;
+    margin-top: 0.5em;
+    margin-bottom: 2.5em;
+}
+
+#informatique{
+    font-size: 2.5rem;
+    font-weight: 300;
+    font-family: 'Roboto Slab', serif;
+    color:black;
+    background-color:bisque;
+    text-align:center;
+    margin-top: 2.5em;
+    margin-bottom: 1em;
+}
+
+#main{
+    overflow-y:scroll;
+    overflow-x:hidden;
+    height : 100vh;
 }
